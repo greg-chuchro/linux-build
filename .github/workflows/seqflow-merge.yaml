@@ -11,7 +11,7 @@ jobs:
   seqflow-merge:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         fetch-depth: 2
     - uses: greg-chuchro/seqflow-merge@v0.0.1
